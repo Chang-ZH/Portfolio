@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>張誌紘的個人作品集</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link href="css/index.css" type="text/css" rel="stylesheet"/>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/load.js"></script>
+	<script src="js/jquery.inview.min.js"></script>
+	<script src="js/scroll_ani.js"></script>
+	<script src="js/text_enter.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="scroll" href="#video_anchor">影片作品</a>
+			<a class="scroll" href="#website_anchor">網站作品</a>
+			<a class="scroll" href="#about_anchor">關於我</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="start">
+			<article>
+				<h1>Portfolio</h1>
+				<p>張誌紘的作品集</p>
+			</article>
+		</section>
+		<section id="about">
+			<div id="about_anchor" class="ball_button">關於我</div>
+			<article>
+				<div class="intro">
+					<p>我是張誌紘，畢業於國立台灣大學圖書資訊學系。自大二開始，在課程中稍微接觸了程式語言，因感到很有趣而開始自學程式。部分程式作品有放在<a href="https://github.com/Chang-ZH" target="_blank">我的 GitHub</a> 上，雖然沒有太多實務上的經驗，但相信仍能夠完成被指派的任務。</p>
+					<p>我的興趣相當廣泛，平日喜歡聽音樂和讀小說，也喜歡打桌球和羽毛球。此外，從小就喜歡《精靈寶可夢》系列（舊譯《神奇寶貝》），並以此為契機，在大學期間自學日文。</p>
+				</div>
+			</article>
+		</section>
+		<section id="website">
+			<div id="website_anchor" class="ball_button">網站作品</div>
+			<article>
+				<div class="grid-item work_name">
+					<h2>捷運好食在</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「數位圖書館」課程中，使用線上數位典藏內容管理系統 Omeka 所建置。</p>
+					<p>在蒐集資料前，先參考國內外菜單收藏的相關網站，並以此為基礎，依據都柏林核心集（Dublin Core）的內容設計著錄規範。最後，挑選流量前五十名的台北捷運站附近的代表性餐廳，蒐集其菜單後進行數位化、組織整理、典藏保存並提供閱覽使用。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>菜單資料數位化</li>
+						<li>著錄規範設計</li>
+						<li>網站後台管理</li>
+					</ul>
+					<a class="link_button link_button-sm" href="https://mrtrestaurant.omeka.net/" target="_blank">網站連結</a>
+				</div>
+				<div class="grid-item work_img">
+					<img src="img/work1.jpg" />
+					<a class="link_button link_button-lg" href="https://mrtrestaurant.omeka.net/" target="_blank">網站連結</a>
+				</div>
+			</article>
+			<article>
+				<div class="grid-item work_name">
+					<h2>偵探書屋</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「資訊結構與網站設計」課程中，先透過標竿學習法評估國內外各獨立書店網站的優缺點。其後，透過與台北市內的獨立書店「偵探書屋」的訪談，規劃設計出適合這間書店的網站。</p>
+					<p>網站 protoype 為使用 Bootstrap 3 前端框架建置的靜態網站。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>頁面建置及整體管理</li>
+					</ul>
+				</div>
+				<div class="grid-item work_img">
+					<img src="img/work2.jpg" />
+				</div>
+			</article>
+			<article>
+				<div class="grid-item work_name">
+					<h2>移送書編輯系統</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「系統分析與設計」課程中，與內政部警政署刑事警察局合作，將原先使用者反映使用上有些問題的移送書編輯系統網站化，期望協助並改善外勤員警編輯移送書之流程，建立更符合各方需求的系統。</p>
+					<p>此系統 prototype 前端以 JQuery 達成和使用者的互動，後端以 Node.js 及 MongoDB 控制資料流動。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>use case diagram 繪製</li>
+						<li>前端頁面初步設計</li>
+						<li>表單前端驗證</li>
+					</ul>
+				</div>
+				<div class="grid-item work_img">
+					<img src="img/work3.jpg" />
+				</div>
+			</article>
+			<article>
+				<div class="grid-item work_name">
+					<h2>圖資系實習圖書館</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「圖書資訊機構實務一 」課程中，用網站做為圖書館導覽與資源利用教育的媒介。</p>
+					<p>圖資系上的官方網站為利用 WordPress 建置的動態網站，而此網站為靜態網站，僅針對原先內容貧乏的「實習圖書館」頁面翻新內容，並模仿官網的版型呈現，後於課程結束後提供給系上參考。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>網站整體建置</li>
+					</ul>
+					<a class="link_button link_button-sm" href="http://lislib-children.updog.co/" target="_blank">網站連結</a>
+				</div>
+				<div class="grid-item work_img">
+					<img src="img/work4.jpg" />
+					<a class="link_button link_button-lg" href="http://lislib-children.updog.co/" target="_blank">網站連結</a>
+				</div>
+			</article>
+			<article>
+				<div class="grid-item work_name">
+					<h2>圖書館館藏系統</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「資料庫管理」課程中，模擬圖書館網站，建立具備有借還書、逾期通知、會員登入等基礎功能的系統。</p>
+					<p>系統後端以 php 及 MySQL 建置。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>資料庫 scheme 設計</li>
+						<li>館藏整理</li>
+						<li>前端建置</li>
+					</ul>
+				</div>
+				<div class="grid-item work_img">
+					<img src="img/work5.jpg" />
+				</div>
+			</article>
+			<article>
+				<div class="grid-item work_name">
+					<h2>京都的留學日誌</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「網際網路程式設計」課程中，嘗試建立了留言板系統。日後以當時的成品為基礎，擴展為部落格系統，並被用來記錄在日本交換留學時的生活與心得。</p>
+					<p>系統前端為網路上開源的 template，僅依個人所需些微調整。後端以 Java 的 JSP / Servlet ，以及 MySQL 建置，並用 AWS Elastic Beanstalk 的 PaaS 服務進行託管。目前改以 Red Hat 的 Openshift 做託管。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>網站前端模板調整</li>
+						<li>網站後端建置</li>
+					</ul>
+					<a class="link_button link_button-sm" href="http://tomcat-exchange-kyoto-doshisha.7e14.starter-us-west-2.openshiftapps.com/" target="_blank">網站連結</a>
+				</div>
+				<div class="grid-item work_img">
+					<img src="img/work6.jpg" />
+					<a class="link_button link_button-lg" href="http://tomcat-exchange-kyoto-doshisha.7e14.starter-us-west-2.openshiftapps.com/" target="_blank">網站連結</a>
+				</div>
+			</article>
+		</section>
+		<section id="video">
+			<div id="video_anchor" class="ball_button">影片作品</div>
+			<article>
+				<div class="grid-item work_name">
+					<h2>節能宣導廣告</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「視聽資料製作」課程中，規定完成一支剛好 30 秒的廣告影片。我們的組別選擇以節能的概念，配合日常熟悉的生活情境進行拍攝作業。</p>
+					<p>使用 Adobe Premiere 後製剪輯。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>影片後製剪輯</li>
+					</ul>
+				</div>
+				<div class="grid-item work_img embeded_yt">
+					<iframe src="https://www.youtube.com/embed/g4Pc9kwBQFg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</article>
+			<article>
+				<div class="grid-item work_name">
+					<h2>PubMed 使用介紹</h2>
+				</div>
+				<div class="grid-item work_text">
+					<p>在「資訊檢索」課程中，針對資訊時代以來，使用方式日益複雜的各種資料庫錄製教學影片。我們這組以醫學資料庫 PubMed 為對象，錄製約莫 5 分鐘的使用解說。</p>
+					<p>使用 Camtasia 8 進行錄製及後製。</p>
+					<p class="task">負責項目</p>
+					<ul>
+						<li>影片後製剪輯</li>
+					</ul>
+				</div>
+				<div class="grid-item work_img embeded_yt">
+					<iframe src="https://www.youtube.com/embed/YWuCdaASpYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</article>
+		</section>
+
+		<img id="gotop" src="img/go_top.png" />
+	</main>
+	
+	<footer>
+		<p>聯絡信箱 / <a href="mailto:pmjimmy314@gmail.com">pmjimmy314@gmail.com</a></p>
+		<p>&copy; 2018&nbsp;&nbsp;ZhiHong Chang</p>
+	</footer>
+</body>
+
+</html>
